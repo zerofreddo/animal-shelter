@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
   <title>Animal-Shelter</title>
 </head>
 <body>
-  <div class="card">
+  <div class="column">
     <img src="img/cat.jpg" alt="cat" style="width:40%">
-    <div class="container">
     <h1>Fritz</h1>
       <p class="title">Power lvl 79</p>
-      <p>Attribute Buffs</p>
-    </div>
+      <p class="buffs">Attribute Buffs</p>
+      <ul>
+          <li>Special: None</li>
+          <li>Attack:  +25</li>
+          </ul>
+          <p><button>Adopt Animal</button></p>
   </div>
 
-  <div>
-    <ul>
-      <li>Special: None</li>
-      <li>Attack:  +25</li>
-    </ul>
-    <p><button>Adopt Animal</button></p>
-  </div>
+  
 
-  <div class="card">
+  <div class="column">
     <img src="img/dog.jpg" alt="dog" style="width:40%">
     <h1>Chomper</h1>
     <p class="title">Power lvl 135</p>
-    <p>Attribute Buffs</p>
+    <p class="buffs">Attribute Buffs</p>
     <ul>
       <li>Special: Echo Boom +10 Attack</li>
       <li>Attack:  +25</li>
@@ -35,11 +31,11 @@
     <p><button>Adopt Animal</button></p>
   </div>
 
-  <div class="card">
+  <div class="column">
     <img src="img/horse.jpg" alt="horse" style="width:40%">
     <h1>Twister</h1>
     <p class="title">Power lvl 220</p>
-    <p>Attribute Buffs</p>
+    <p class="buffs">Attribute Buffs</p>
     <ul>
       <li>Special: Mule kick +25 Attack</li>
       <li>Attack:  +40</li>
@@ -47,13 +43,13 @@
     <p><button>Adopt Animal</button></p>
   </div>
 
-  <div class="card">
+  <div class="column">
     <img src="img/squirrel.jpg" alt="squirrel" style="width:40%">
     <h1>Chipper</h1>
     <p class="title">Power lvl 30</p>
-    <p>Attribute Buffs</p>
+    <p class="buffs">Attribute Buffs</p>
     <ul>
-      <li>Special: Nut cracker +15 Attack</li>
+      <li><p id="nut">Nut cracker +15 Attack</p></li>
       <li>Attack:  +10</li>
     </ul>
     <p><button>Adopt Animal</button></p>
